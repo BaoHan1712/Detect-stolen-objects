@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Giám Sát</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2><i class="fas fa-shield-alt"></i> Hệ Thống An Ninh</h2>
+            <div class="status-panel">
+                <h3>Trạng thái</h3>
+                <div class="status-indicator" id="systemStatus">
+                    <span class="dot"></span>
+                    <span>Hoạt động</span>
+                </div>
+            </div>
+            <div class="alert-panel">
+                <h3>Cảnh báo gần đây</h3>
+                <div class="alert-list" id="alertList"></div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <img id="videoFeed" src="{{ url_for('video_feed') }}" alt="Video Stream">
+                </div>
+            </div>
+            
+            <div class="alert-modal" id="alertModal">
+                <div class="alert-content">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h2>Cảnh Báo!</h2>
+                    <p id="alertMessage"></p>
+                    <button onclick="closeAlert()">Đã hiểu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="notification-container" id="notificationContainer"></div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 
