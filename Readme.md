@@ -5,7 +5,7 @@ Hệ thống giám sát và phát hiện vật thể bị mất sử dụng YOLO
 ## Chức năng chính
 
 ### 1. Phát hiện và theo dõi vật thể
-- Sử dụng YOLO để phát hiện vật thể trong khung hình
+- Phát hiện vật thể trong khung hình
 
 - Tạo mask cho các vật thể được phát hiện
 
