@@ -121,43 +121,4 @@ python app.py
 
 </div>
 
-<style>
-.animate__animated {
-  animation-duration: 1s;
-}
 
-.animate__fadeIn {
-  animation-name: fadeIn;
-}
-
-.animate__fadeInUp {
-  animation-name: fadeInUp;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 40px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.tech-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 20px;
-  background: rgba(255,255,255,0.1);
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
-}
-</style>
-```
