@@ -4,12 +4,6 @@
 
 </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" />
-  <img src="https://img.shields.io/badge/OpenCV-4.5+-green.svg" />
-  <img src="https://img.shields.io/badge/YOLO-v8-yellow.svg" />
-  <img src="https://img.shields.io/badge/Flask-2.0+-red.svg" />
-</p>
 
 ## Sơ đồ hoạt động
 
@@ -90,7 +84,7 @@ sequenceDiagram
 1. Clone repository:
 
 ```bash
-git clone https://github.com/yourusername/object-detection.git
+git clone https://github.com/BaoHan1712/Detect-stolen-objects.git
 ```
 
 2. Cài đặt dependencies:
@@ -118,6 +112,14 @@ python app.py
 - 🔹 Flask & Flask-SocketIO
 - 🔸 WebSocket
 - 🔹 HTML/CSS/JavaScript
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" />
+  <img src="https://img.shields.io/badge/OpenCV-4.5+-green.svg" />
+  <img src="https://img.shields.io/badge/YOLO-v8-yellow.svg" />
+  <img src="https://img.shields.io/badge/Flask-2.0+-red.svg" />
+</p>
+
 
 </div>
 
