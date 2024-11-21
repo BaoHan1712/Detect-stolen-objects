@@ -1,4 +1,4 @@
-# Hệ Thống Phát Hiện Vật Thể Bị Mất
+# Hệ Thống Phát Hiện Vật Thể Bị Đánh Cắp
 
 Hệ thống giám sát và phát hiện vật thể bị mất sử dụng YOLO và OpenCV, với giao diện web thời gian thực.
 
